@@ -1,5 +1,5 @@
 public class Hero {
-    String nam;
+    String name;
     int hp ;
     Sword sword;
     void attack() {
