@@ -3,7 +3,7 @@ public class Main {
         Sword s = new Sword();
         s.name = "炎の剣";
         s.damage = 10;
-        Hero h = new Heros("ミナト");
+        Heros h = new Heros("ミナト");
         h.sword = s;
         System.out.println("現在の武器は" + h.sword.name);
         System.out.println(h.name + "のHPは" + h.hp);    }
